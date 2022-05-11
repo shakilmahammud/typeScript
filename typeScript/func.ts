@@ -3,4 +3,11 @@
 // }
 
 // scriptfuc("hello","world",20)
-// scriptfuc("hello","world")
+// scriptfuc("hello","world") //one parameter optional
+// function calculate_discount(price:number,rate:number = 0.50) { 
+//     let discount = price * rate; 
+//     console.log("Discount Amount: ",discount); 
+//  } 
+//  calculate_discount(1000) 
+//  calculate_discount(1000,0.30)
+
